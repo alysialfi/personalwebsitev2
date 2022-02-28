@@ -3,7 +3,16 @@ module.exports = {
   purge: ['app/**/*.tsx'],
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        blue: {
+          bg: '#276FA4'
+        },
+        white: {
+          font: '#FCFCFC'
+        }
+      }
+    },
   },
   plugins: [],
 }
