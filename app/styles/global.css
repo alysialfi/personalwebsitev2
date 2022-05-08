@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Kumbh+Sans:wght@400;700&display=swap');
 @tailwind base;
 @tailwind utilities;
 @tailwind components;
 
 body {
     @apply bg-blue-bg text-white-font;
+    font-family: 'DM Sans', sans-serif;
 }
+/* #nav-menu span {
+    @apply bg-white-default;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 750% 100%;
+    background-position: right bottom;
+    transition: background-position 2s ease;
+}
+#nav-menu span:hover {
+  @apply bg-gradient-to-r from-pink-100 to-purple-500;
+  background-position: left top;
+} */
